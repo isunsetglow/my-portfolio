@@ -1,0 +1,34 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c4baff00;
+}
+
+/* nav .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 1rem;
+    text-decoration: none;
+} */
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 1rem;
+}
+
+nav ul li {
+    list-style: none;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+nav ul li a {
+    color: #a889e8;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
