@@ -1,7 +1,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     background-color: #c4baff00;
 }
 
@@ -16,14 +16,14 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     list-style: none;
     margin-right: 1rem;
 }
 
 nav ul li {
     list-style: none;
-    align-items: center;
+    /* align-items: center; */
     font-size: 1.5rem;
 }
 
