@@ -1,5 +1,6 @@
 import React from "react";
 import "./navbar.css";
+import githubImage from "../assets/github.png";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
@@ -9,7 +10,7 @@ export const Navbar = () => {
     {/* <Link to="/" className="title">Maria Hernandez</Link> */}
     <ul>
         <li>
-            <Link to="/about">About</Link>
+            <Link to="/">Home</Link>
         </li>
         <li>
             <Link to="/projects">Projects</Link>
@@ -19,6 +20,9 @@ export const Navbar = () => {
         </li>
         <li>
             <Link to="/resume">Resume</Link>
+        </li>
+        <li>
+            <a href="https://github.com/isunsetglow"><img src={githubImage}/></a>
         </li>
     </ul>
   </nav>
